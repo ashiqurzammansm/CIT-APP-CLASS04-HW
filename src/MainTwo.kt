@@ -12,11 +12,11 @@ fun main() {
 
 fun determineGrade(score: Int): String {
     return when (score) {
-        in 90..100 -> "A"
-        in 80..89 -> "B"
-        in 70..79 -> "C"
-        in 60..69 -> "D"
-        in 50..59 -> "E"
+        in 80..100 -> "A+"
+        in 70..79 -> "A"
+        in 60..69 -> "A-"
+        in 50..59 -> "B"
+        in 33..49 -> "F"
         else -> "F"
     }
 }
